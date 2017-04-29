@@ -5,8 +5,8 @@ const Schema = mongoose.Schema;
 const driverSchema = new Schema({
     name: {type: String, required: true},
     location: {
-        lat: Number,
-        lng: Number
+        latitude: Number,
+        longitude: Number
     }
 });
 
