@@ -57,7 +57,7 @@ A typical REST endpoint with all CRUD operations.
 Gets the list of the nearest 3 drivers. Input must contains the current location info.
 
 ```ecmascript 6
-location: {
+{
     latitude: Number,
     longitude: Number
 }
